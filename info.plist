@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>qbbo@zr.pbz</string>
+	<key>contactName</key>
+	<string>Jacob Carlborg</string>
+	<key>description</key>
+	<string>Integration with GitLab.</string>
+	<key>name</key>
+	<string>GitLab</string>
+	<key>uuid</key>
+	<string>AAE112E8-91AD-41BC-BBDF-172B1AFCC2D8</string>
+</dict>
+</plist>
