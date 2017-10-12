@@ -2,5 +2,14 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'gitlab', github: 'NARKOZ/gitlab'
-gem 'git_clone_url'
+gem 'gitlab-build-output', '~> 0.0.1'
+
+group :development, :test do
+  gem 'pry', '~> 0.11.1'
+  gem 'pry-rescue', '~> 1.4.5'
+  gem 'pry-stack_explorer', '~> 0.4.9.2'
+  gem 'redcarpet', '~> 3.4.0'
+  gem 'rspec', '~> 3.6.0'
+  gem 'rubocop', '0.48.1'
+  gem 'yard', '~> 0.9.12'
+end

@@ -1,0 +1,33 @@
+Layout/SpaceAroundEqualsInParameterDefault:
+  Enabled: false
+
+Style/Alias:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Layout/DotPosition:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100
+  Exclude:
+    - 'lib/gitlab/client/*'
+    - 'spec/**/*'
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'lib/gitlab/client/*'
+
+Layout/SpaceInsideHashLiteralBraces:
+  Exclude:
+    - 'lib/gitlab/client/*'
+
+Style/StringLiterals:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
