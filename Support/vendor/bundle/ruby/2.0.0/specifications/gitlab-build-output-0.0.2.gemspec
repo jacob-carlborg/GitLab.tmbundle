@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
-# stub: gitlab-build-output 0.0.1 ruby lib
+# stub: gitlab-build-output 0.0.2 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "gitlab-build-output"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.metadata = { "allowed_push_host" => "https://rubygems.org" } if s.respond_to? :metadata=
   s.require_paths = ["lib"]
   s.authors = ["Jacob Carlborg"]
   s.bindir = "exe"
-  s.date = "2018-01-29"
+  s.date = "2018-02-01"
   s.description = "Prints the output of a GitLab CI job."
   s.email = ["doob@me.com"]
   s.executables = ["gitlab-build-output"]

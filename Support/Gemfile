@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'gitlab-build-output', '~> 0.0.1'
+gem 'gitlab-build-output', '~> 0.0.2'
 
 group :development, :test do
   gem 'pry', '~> 0.11.1'
